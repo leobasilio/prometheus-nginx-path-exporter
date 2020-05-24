@@ -87,7 +87,7 @@ program
   .arguments('<logfile>')
   .action(function (logfile) {
 
-    monitorLog(program.format, logfile)
+    monitorLog(logfile, program.format)
 
     runServer()
 
