@@ -1,8 +1,12 @@
 {
   "name": "exporter",
-  "version": "0.1",
+  "version": "0.1.0",
   "description": "",
   "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/leobasilio/prometheus-nginx-path-exporter"
+  },
   "scripts": {
     "start": "node src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
